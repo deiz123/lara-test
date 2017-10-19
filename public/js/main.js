@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    Dropzone.autoDiscover = false;
     var myDropzone = new Dropzone("div#dropzoneFileUpload", {
         paramName: "file",
         maxFilesize: 20,
